@@ -80,5 +80,10 @@ cat /proc/sys/net/ipv4/icmp_echo_ignore_all
 echo ""
 echo " 8. Interface statistics for eth0.2"
 ip -stats link show eth0.2
+#Step 9. DNS Haiku
+echo ""
+echo" "It's not DNS"
+echo" "There's no way it is DNS"
+echo" "It was DNS"
 echo ""
 echo "===== Diagnostics Complete ====="
