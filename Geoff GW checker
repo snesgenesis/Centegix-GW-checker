@@ -49,10 +49,11 @@ ping -c 2 -I eth0.2 -W 2 $DEFAULT_GW >/dev/null 2>&1
 [ $? -eq 0 ] && echo "   Ping Test to $DEFAULT_GW is Reachable" || echo "   
 Ping Test to $DEFAULT_GW is Unreachable"
 
-# 5. Connectivity Test to Hostnames via eth0.2:"
+# Step 5. Connectivity Test to public DNS via eth0.2:"
 echo ""
-  ping -c10 -I eth0.2 8.8.8.8
-
+  ping -c10 -I eth0.2 -W 10 8.8.8.8
+[ $? -eq 0 ] && echo "   Ping Test to $8.8.8.8 is Reachable" || echo "   
+Ping Test to $8.8.8.8 is Unreachable"
    
 
     
