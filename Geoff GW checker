@@ -75,5 +75,9 @@ fi
 echo ""
 echo " 7. Verify ICMP Status"
 cat /proc/sys/net/ipv4/icmp_echo_ignore_all
+# Step 8. Interface statistics for eth0.2"
+echo ""
+echo " 8. Interface statistics for eth0.2"
+ip -stats link show eth0.2
 echo ""
 echo "===== Diagnostics Complete ====="
