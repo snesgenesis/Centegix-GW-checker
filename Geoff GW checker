@@ -58,7 +58,7 @@ for HOSTNAME in google.com centegix.wisdm.rakwireless.com centegix.com; do
     if [ $? -eq 0 ]; then
       printf "   %-40s : Reachable\n" "$HOSTNAME:$PORT"
     else
-      printf "   %-40s : Unreachable\n" "$HOSTNAME:$PORT"
+      printf "   %-300s : Unreachable\n" "$HOSTNAME:$PORT"
     fi
   done
 done
