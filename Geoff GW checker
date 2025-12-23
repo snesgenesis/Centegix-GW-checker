@@ -79,7 +79,17 @@ echo ""
 echo " 8. Interface statistics for eth0.2"
 ip -stats link show eth0.2
 echo ""
-#Step 9. DNS Haiku
+# Step 9. Resolve external IP
+echo ""
+echo " 9. Display external IP and ISP company"
+curl ipinfo.io/org 2>/dev/null
+echo ""
+curl https://ipv4.ident.me 2>/dev/null
+echo ""
+echo
+
+
+#Step 10. DNS Haiku
 echo " It's not DNS..." " There's no way it's DNS..." " It was DNS"
 echo ""
 echo "===== Diagnostics Complete ====="
