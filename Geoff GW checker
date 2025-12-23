@@ -63,6 +63,7 @@ for HOSTNAME in google.com centegix.wisdm.rakwireless.com centegix.com; do
   done
 done
 
+
 # Step 6: Active connections (filtered by eth0.2 IP)
 echo ""
 echo "6. Active Connections (Bound to $PRIMARY_IP):"
