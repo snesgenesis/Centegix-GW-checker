@@ -4,7 +4,7 @@ echo ""
 echo "===== Centegix Gateway Connectivity Check ====="
 
 # Step 0: Hostname and time
-HOST=$(hostname 2>/dev/null)
+HOST=$(uname -a)
 [ -z "$HOST" ] && HOST="unknown"
 echo "Running on $HOST at $(date)"
 
