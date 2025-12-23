@@ -84,5 +84,7 @@ echo ""
 #Step 9. DNS Haiku
 echo ""
 echo "It's not DNS"
+echo "There's no way it's DNS"
+echo "It's DNS"
 echo ""
 echo "===== Diagnostics Complete ====="
