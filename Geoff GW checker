@@ -71,6 +71,9 @@ if [ -n "$PRIMARY_IP" ]; then
 else
   echo "   Skipped — No valid IP found on eth0.2"
 fi
-
+# Step 7: Verify ICMP Status
+echo ""
+echo " 7. Verify ICMP Status"
+cat /proc/sys/net/ipv4/icmp_echo_ignore_all
 echo ""
 echo "===== Diagnostics Complete ====="
