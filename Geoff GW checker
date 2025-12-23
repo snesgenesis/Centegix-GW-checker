@@ -51,7 +51,7 @@ Ping Test to $DEFAULT_GW is Unreachable"
 
 # Step 5. Connectivity Test to public DNS via eth0.2:"
 echo ""
-echo " Connectivity Test to public DNS via eth0.2"
+echo "5. Connectivity Test to public DNS via eth0.2"
   ping -c5 -I eth0.2 -W 5 8.8.8.8 >/dev/null 2>&1
 [ $? -eq 0 ] && echo "   Ping Test to $8.8.8.8 is Reachable" || echo "   
 Ping Test to $8.8.8.8 is Unreachable"
