@@ -52,7 +52,7 @@ Ping Test to $DEFAULT_GW is Unreachable"
 # Step 5: Connectivity Test to Hostnames via eth0.2
 echo ""
 echo "5. Connectivity Test to Hostnames via eth0.2:"
-for HOSTNAME in 8.8.8.8 centegix.wisdm.rakwireless.com centegix.com; do
+for HOSTNAME in 8.8.8.8; do
   for PORT in 80 443; do
     nc -zvw2 $HOSTNAME $PORT >/dev/null 2>&1
     if [ $? -eq 0 ]; then
