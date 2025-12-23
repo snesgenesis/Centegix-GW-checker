@@ -82,8 +82,8 @@ echo " 8. Interface statistics for eth0.2"
 ip -stats link show eth0.2
 #Step 9. DNS Haiku
 echo ""
-echo" "It's not DNS
+echo" It's not DNS
 There's no way its DNS
-It's DNS"
+It's DNS
 echo ""
 echo "===== Diagnostics Complete ====="
