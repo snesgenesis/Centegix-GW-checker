@@ -83,5 +83,5 @@ ip -stats link show eth0.2
 echo ""
 #Step 9. DNS Haiku
 echo ""
-" It's not DNS"
+echo " It's not DNS"
 echo "===== Diagnostics Complete ====="
